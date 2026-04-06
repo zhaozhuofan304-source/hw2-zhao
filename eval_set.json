@@ -1,0 +1,27 @@
+[
+  {
+    "input": "My order is late",
+    "type": "normal",
+    "expected_behavior": "Apologize, acknowledge delay, ask for order number, offer help."
+  },
+  {
+    "input": "I want a refund for my damaged item",
+    "type": "normal",
+    "expected_behavior": "Apologize, show empathy, ask for order details, explain next steps."
+  },
+  {
+    "input": "Where is my package?",
+    "type": "edge",
+    "expected_behavior": "Ask for tracking/order info, avoid guessing shipping status."
+  },
+  {
+    "input": "You scammed me, I will report you",
+    "type": "sensitive",
+    "expected_behavior": "Stay calm, avoid admitting fault, escalate to human support."
+  },
+  {
+    "input": "My order number is 12345, where is it now?",
+    "type": "hallucination-risk",
+    "expected_behavior": "Do NOT invent tracking info, say you will check and follow up."
+  }
+]
