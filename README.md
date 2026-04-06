@@ -25,4 +25,9 @@ A polite and professional customer support email that:
 - acknowledges the customer's concern
 - requests the order number
 - offers further assistance
+  
+## Evaluation
+
+A small evaluation set is provided in `eval_set.json`, including normal cases, edge cases, and scenarios where the model may hallucinate or require human review.
+
 
