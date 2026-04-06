@@ -31,6 +31,6 @@ A polite and professional customer support email that:
 A small evaluation set is provided in `eval_set.json`, including normal cases, edge cases, and scenarios where the model may hallucinate or require human review.
 
 ## Demo Video
-https://youtu.be/lmZHzk94bno
+https://youtu.be/nUglSwfyNao
 
 
